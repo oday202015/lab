@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="lab.css">
+    <title> LABOLATORY</title>
+</head>
+<body>
+    <div class="crud">
+        <h2>lab  </h2>
+        <p> laboratory daily costs</p> 
+    
+    <div class=" input">
+        <input type="text" placeholder="patient name" id="patient">
+        <input type="text" placeholder="Doctor name" id="Doctor">
+        <input type="number" placeholder="phon number" id="phone">
+        <input type="number" placeholder="date" id="date">
+
+        <div class="costs">
+            <input onkeyup="getTotal()" type="number" placeholder="price" id="price">
+            <input onkeyup="getTotal()" type="number" placeholder="dicount" id="dicount">
+            <small id="total" ></small><br>
+            <button id="submit">creat</button>
+           
+        </div>
+    </div>
+    <div class="outpuT">
+         <input type="text" id="search" placeholder="search">
+           <div class="btnsearch">
+              <button id="search by patient name">search by patient name</button>
+               <button id="search by phon number">search by phone number</button> 
+            
+            </div> 
+                   <title class="tet"> table</title> </div>
+              <div>  
+                 
+                <table> 
+                        
+                         <tr>
+                            <th> ID </th>
+                        <th>patient name </th>
+                        <th>phon number</th>
+                        <th>date</th>
+                        <th>total</th>
+                    </tr>
+                    <tr>
+                        <th> 1 </th>
+                        <th> mohamed </th>
+                        <th>0125522</th>
+                        <th>2/2/2023</th>
+                        <th> 250</th>
+                    </tr>
+                    <tr>
+                        <th> 2</th>
+                        <th> hassan </th>
+                        <th> 01222222</th>
+                        <th>2/2/2023</th>
+                        <th>2520</th>
+                    </tr>
+                    <tr>
+                        <th> 3</th>
+                        <th>omr </th>
+                        <th>0254125</th>
+                        <th>2/2/2023o </th>
+                        <th>650</th>
+                    </tr> 
+                
+                </table>
+            
+            </div>
+                
+
+                
+                 
+
+
+
+    </div>
+
+
+
+
+
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="lab.js"></script>
+</body>
+</html>

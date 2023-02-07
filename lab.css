@@ -1,0 +1,20 @@
+*{ margin: 0;
+padding: 0;
+font-family: 'Courier New', Courier, monospace;}
+.crud{ width: 70%;
+    margin: auto;
+    height: 50%;
+background: yellowgreen;
+text-align: center;}
+h2 {
+    background: gray;
+
+}
+input {  width: 100%;}
+table{ width: 100%;
+text-align: center;
+margin: 10px 0;
+padding: 20px;
+background: rgb(199, 212, 175);
+}
+
